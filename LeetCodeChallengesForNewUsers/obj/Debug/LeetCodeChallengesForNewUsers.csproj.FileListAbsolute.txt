@@ -1,0 +1,8 @@
+C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\bin\Debug\LeetCodeChallengesForNewUsers.exe.config
+C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\bin\Debug\LeetCodeChallengesForNewUsers.exe
+C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\bin\Debug\LeetCodeChallengesForNewUsers.pdb
+C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.csproj.AssemblyReference.cache
+C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.csproj.SuggestedBindingRedirects.cache
+C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.csproj.CoreCompileInputs.cache
+C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.exe
+C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.pdb
