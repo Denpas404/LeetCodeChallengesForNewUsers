@@ -26,7 +26,7 @@ namespace LeetCodeChallengesForNewUsers
 
             ////Ransom Note
             //Console.WriteLine(new RansomNote().CanConstruct("a", "b"));
-            //Console.WriteLine(new RansomNote().CanConstruct("aa", "aab"));
+            Console.WriteLine(new RansomNote().CanConstruct("aab", "aab"));
 
             ////Fizz buzz            
             //foreach (var item in new FizzBuzz().Calculate(15))
