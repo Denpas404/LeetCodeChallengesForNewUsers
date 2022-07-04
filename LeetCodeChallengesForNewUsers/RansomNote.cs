@@ -12,6 +12,7 @@ namespace LeetCodeChallengesForNewUsers
         {
             var ransom = new Dictionary<char, int>(); //Dictionary, romertal som key og romertal værdig som value.
             char[] charsRansom = ransomNote.ToCharArray();
+            Array.Sort(charsRansom);
             char c = ' ';
 
             for (int i = 0; i < charsRansom.Length; i++)
@@ -30,6 +31,7 @@ namespace LeetCodeChallengesForNewUsers
 
             var magazineDict = new Dictionary<char, int>();
             char[] charsMagazine = magazine.ToCharArray();
+            Array.Sort (charsMagazine);
 
             for (int j = 0; j < charsMagazine.Length; j++)
             {
@@ -44,40 +46,30 @@ namespace LeetCodeChallengesForNewUsers
                     magazineDict[c]++;
                 }
             }
-            bool ja = false;
 
-            for (int i = 0; i < ransom.Count; i++)
+            if (ransom.Count <= magazineDict.Count)
             {
-                c = ransom.ElementAt(i).Key;
-
-                Console.WriteLine("ransom: " + ransom.ElementAt(i).Key);
-                Console.WriteLine("Maga: " + magazineDict.ElementAt(i).Key);
-                Console.WriteLine("ransom: " + ransom.ElementAt(i).Value);
-                Console.WriteLine("Maga: " + magazineDict.ElementAt(i).Value);
-
-                if (ransom.ElementAt(i).Key == magazineDict.ElementAt(i).Key && ransom.ElementAt(i).Value <= magazineDict.ElementAt(i).Value)
+                for (int i = 0; i < ransom.Count; i++)
                 {
-                    ja = true;
-                }
-                else
-                {
-                    ja = false;
+                    if (magazineDict.ContainsKey(ransom.ElementAt(i).Key))
+                    {
+                        if (ransom.ElementAt(i).Value <= magazineDict.ElementAt(i).Value)
+                        {
+                            return true;
+                        }
+                    }
+                    else
+                    {
+                        return false;   
+                    }
                 }
             }
+            else
+            {
+                return false;
+            }
 
-
-
-            //Udskriver dictionary
-            //ransom.ToList().ForEach(x => Console.WriteLine(x.Key + " " +  x.Value));
-            //Console.WriteLine("--");
-            //magazineDict.ToList().ForEach(x => Console.WriteLine(x.Key + " " + x.Value));
-
-            return ja;
-
-
-
-           // return magazine.Contains(ransomNote);
-
+            return false;           
         }
     }
 }

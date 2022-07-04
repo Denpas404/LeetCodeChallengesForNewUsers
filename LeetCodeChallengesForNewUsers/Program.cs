@@ -18,19 +18,25 @@ namespace LeetCodeChallengesForNewUsers
             //Console.WriteLine();
             //Console.WriteLine(new RomanToInt().Convert("MCMXCIV"));
             //Console.WriteLine();
-            //Console.WriteLine(new RomanToInt().Convert("XVIII"));
+            //Console.WriteLine(new RomanToInt().Convert("CMXLIV"));
 
             ////Palindrome Linked List
             //List<int> list = new List<int>() { 1, 2, 3, 4 };
             //Console.WriteLine(new PalindromeLinkedList().TestPalindrome(new LinkedList<int>(list)));
 
             ////Ransom Note
-            //Console.WriteLine(new RansomNote().CanConstruct("a", "b"));
-            Console.WriteLine(new RansomNote().CanConstruct("aab", "aab"));
+            Console.WriteLine(new RansomNote().CanConstruct("a", "b"));
+            Console.WriteLine(new RansomNote().CanConstruct("aab", "baa"));
+            Console.WriteLine(new RansomNote().CanConstruct("bg", "efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj"));
+            Console.WriteLine(new RansomNote().CanConstruct("aa", "ab"));
+            Console.WriteLine(new RansomNote().CanConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"));
+
+
+
 
             ////Fizz buzz            
             //foreach (var item in new FizzBuzz().Calculate(15))
-            //{
+            //{ 
             //    Console.WriteLine(item);
             //}
 
@@ -40,7 +46,7 @@ namespace LeetCodeChallengesForNewUsers
 
             ////Richest Customer Wealth
             //Console.WriteLine(new RichestCustomerWealth().MaximumWealth(new int[][] { new int[] { 1, 2, 4 }, new int[] { 1, 2, 3 } }));
-            
+
 
 
 
