@@ -26,9 +26,13 @@ namespace LeetCodeChallengesForNewUsers
 
             ////Ransom Note
             Console.WriteLine(new RansomNote().CanConstruct("a", "b"));
+            Console.WriteLine();
             Console.WriteLine(new RansomNote().CanConstruct("aab", "baa"));
+            Console.WriteLine();
             Console.WriteLine(new RansomNote().CanConstruct("bg", "efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj"));
+            Console.WriteLine();
             Console.WriteLine(new RansomNote().CanConstruct("aa", "ab"));
+            Console.WriteLine();
             Console.WriteLine(new RansomNote().CanConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"));
 
 

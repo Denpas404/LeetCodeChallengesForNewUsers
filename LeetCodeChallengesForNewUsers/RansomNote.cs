@@ -10,7 +10,7 @@ namespace LeetCodeChallengesForNewUsers
     {
         public bool CanConstruct(string ransomNote, string magazine)
         {
-            var ransom = new Dictionary<char, int>(); //Dictionary, romertal som key og romertal værdig som value.
+            var ransom = new Dictionary<char, int>(); 
             char[] charsRansom = ransomNote.ToCharArray();
             Array.Sort(charsRansom);
             char c = ' ';
@@ -29,47 +29,25 @@ namespace LeetCodeChallengesForNewUsers
                 }
             }
 
-            var magazineDict = new Dictionary<char, int>();
-            char[] charsMagazine = magazine.ToCharArray();
-            Array.Sort (charsMagazine);
-
-            for (int j = 0; j < charsMagazine.Length; j++)
+            for (int i = 0; i < magazine.Length; i++)
             {
-                c = charsMagazine[j];
+                c = magazine[i];
 
-                if (!magazineDict.ContainsKey(c))
+                if (ransom.ContainsKey(c))
                 {
-                    magazineDict.Add(c, 1);
-                }
-                else
-                {
-                    magazineDict[c]++;
+                    ransom[c]--;
                 }
             }
 
-            if (ransom.Count <= magazineDict.Count)
+            for (int i = 0; i < ransom.Count; i++)
             {
-                for (int i = 0; i < ransom.Count; i++)
+                if (ransom.ElementAt(i).Value > 0)
                 {
-                    if (magazineDict.ContainsKey(ransom.ElementAt(i).Key))
-                    {
-                        if (ransom.ElementAt(i).Value <= magazineDict.ElementAt(i).Value)
-                        {
-                            return true;
-                        }
-                    }
-                    else
-                    {
-                        return false;   
-                    }
+                    return false;
                 }
+                
             }
-            else
-            {
-                return false;
-            }
-
-            return false;           
+            return true;              
         }
     }
 }
