@@ -6,3 +6,11 @@ C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesFor
 C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.csproj.CoreCompileInputs.cache
 C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.exe
 C:\Users\denpaa\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.pdb
+C:\Users\dpaas\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\bin\Debug\LeetCodeChallengesForNewUsers.exe.config
+C:\Users\dpaas\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\bin\Debug\LeetCodeChallengesForNewUsers.exe
+C:\Users\dpaas\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\bin\Debug\LeetCodeChallengesForNewUsers.pdb
+C:\Users\dpaas\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.csproj.AssemblyReference.cache
+C:\Users\dpaas\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.csproj.SuggestedBindingRedirects.cache
+C:\Users\dpaas\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.csproj.CoreCompileInputs.cache
+C:\Users\dpaas\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.exe
+C:\Users\dpaas\source\repos\LeetCodeChallengesForNewUsers\LeetCodeChallengesForNewUsers\obj\Debug\LeetCodeChallengesForNewUsers.pdb

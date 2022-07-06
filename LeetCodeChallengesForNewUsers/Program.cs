@@ -25,15 +25,15 @@ namespace LeetCodeChallengesForNewUsers
             //Console.WriteLine(new PalindromeLinkedList().TestPalindrome(new LinkedList<int>(list)));
 
             ////Ransom Note
-            Console.WriteLine(new RansomNote().CanConstruct("a", "b"));
-            Console.WriteLine();
-            Console.WriteLine(new RansomNote().CanConstruct("aab", "baa"));
-            Console.WriteLine();
-            Console.WriteLine(new RansomNote().CanConstruct("bg", "efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj"));
-            Console.WriteLine();
-            Console.WriteLine(new RansomNote().CanConstruct("aa", "ab"));
-            Console.WriteLine();
-            Console.WriteLine(new RansomNote().CanConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"));
+            //Console.WriteLine(new RansomNote().CanConstruct("a", "b"));
+            //Console.WriteLine();
+            //Console.WriteLine(new RansomNote().CanConstruct("aab", "baa"));
+            //Console.WriteLine();
+            //Console.WriteLine(new RansomNote().CanConstruct("bg", "efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj"));
+            //Console.WriteLine();
+            //Console.WriteLine(new RansomNote().CanConstruct("aa", "ab"));
+            //Console.WriteLine();
+            //Console.WriteLine(new RansomNote().CanConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"));
 
 
 
@@ -51,7 +51,9 @@ namespace LeetCodeChallengesForNewUsers
             ////Richest Customer Wealth
             //Console.WriteLine(new RichestCustomerWealth().MaximumWealth(new int[][] { new int[] { 1, 2, 4 }, new int[] { 1, 2, 3 } }));
 
-
+            ////Palindrome Number
+            Console.WriteLine(new PalindromeNumber().IsPalindrome(123));
+            Console.WriteLine(new PalindromeNumber().IsPalindrome(12321));
 
 
 
